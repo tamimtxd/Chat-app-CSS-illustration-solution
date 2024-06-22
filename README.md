@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Preview
 
-![](./design/preview.gif)
+![](./images/preview.gif)
 
 ### Links
 
