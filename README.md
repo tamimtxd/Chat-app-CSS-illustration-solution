@@ -6,7 +6,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Preview](#preview)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,14 +24,14 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 - **Bonus**: See the chat interface animate on the initial load
 
-### Screenshot
+### Preview
 
-![](./screenshot.jpg)
+![](./design/preview.gif)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor link](https://www.frontendmentor.io/solutions/chat-app-css-illustration-U1_VEsSTzV)
+- Live Site URL: [Github pages link](https://tamimtxd.github.io/Chat-app-CSS-illustration-solution/)
 
 ## My process
 
@@ -55,6 +55,7 @@ I think now I'm pretty confident to start my JavaScript journey.
 ## Author
 
 - Frontend Mentor - [@tamimtxd](https://www.frontendmentor.io/profile/tamimtxd)
+- Gmail - tamimmtd@gmail.com
 - Facebook - [@tamimtxd](https://www.facebook.com/tamimtxd)
 
 ## Acknowledgments
