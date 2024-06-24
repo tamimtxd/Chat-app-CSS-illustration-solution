@@ -5,21 +5,21 @@
   box-sizing: border-box;
 }
 :root {
-  --lightMagenta: hsl(293, 100%, 63%);
-  --lightViolet: hsl(264, 100%, 61%);
-  --lightGrayishViolet: hsl(270, 77%, 95%);
-  --veryDarkDesaturatedViolet: hsl(271, 36%, 24%);
-  --veryLightMagenta: hsl(289, 100%, 72%);
-  --paleViolet: hsl(276, 100%, 81%);
-  --moderateViolet: hsl(276, 55%, 52%);
-  --desaturatedDarkViolet: hsl(271, 15%, 43%);
-  --grayishBlue: hsl(206, 6%, 79%);
-  --veryDarkDesaturatedViolet: hsl(271, 36%, 24%);
-  --darkGrayishViolet: hsl(270, 7%, 64%);
+  --lightMagenta: #e942ff;
+  --lightViolet: #8838ff;
+  --lightGrayishViolet: #f2e8fc;
+  --veryDarkDesaturatedViolet: #3e2753;
+  --veryLightMagenta: #e570ff;
+  --paleViolet: #d89eff;
+  --moderateViolet: #9241c8;
+  --desaturatedDarkViolet: #6e5d7e;
+  --grayishBlue: #c6cacd;
+  --veryDarkDesaturatedViolet: #3e2753;
+  --darkGrayishViolet: #a39daa;
 
-  --msgShadow: rgba(0, 0, 0, 0.05) 7px 7px 10px;
-  --phoneShadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  --msgShadow: #0000000d 7px 7px 10px;
+  --phoneShadow: #11111a1a 0px 8px 24px, #11111a1a 0px 16px 56px,
+    #11111a1a 0px 24px 80px;
 }
 
 /* Background styles */
@@ -41,7 +41,7 @@ body {
   animation: leftAnimY 3s ease-out;
 }
 .bg-shape-right {
-  background: hsl(0, 0%, 91%);
+  background: #e8e8e8;
   border-radius: 50% 50% 0% 0% / 40% 40% 60% 60%;
   bottom: 0;
   right: -6%;
@@ -79,7 +79,7 @@ body {
   min-width: 270px;
   background: var(--lightGrayishViolet);
   border-radius: 30px;
-  border: 10px solid white;
+  border: 10px solid #ffffff;
   box-shadow: var(--phoneShadow);
 }
 
@@ -170,7 +170,7 @@ body {
 }
 .right-msg {
   align-self: flex-end;
-  background: white;
+  background: #ffffff;
   box-shadow: var(--msgShadow);
   color: var(--desaturatedDarkViolet);
   border-radius: 10px 10px 4px 10px;
@@ -194,6 +194,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1.2em 0.9em;
   background: linear-gradient(90deg, var(--lightMagenta), var(--lightViolet));
 }
 .circle {
@@ -202,12 +203,12 @@ body {
 }
 .price-info {
   color: var(--grayishBlue);
-  font-size: 0.53rem;
   flex-basis: 70%;
 }
 .price {
   color: var(--lightGrayishViolet);
   flex-basis: 25%;
+  font-size: 0.77rem;
   font-weight: 500;
 }
 
@@ -242,7 +243,7 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
 }
 
 /* App animations */
