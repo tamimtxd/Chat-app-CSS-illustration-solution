@@ -286,7 +286,7 @@ body {
   }
 }
 
-/* Media quaries */
+/* Media queries */
 @media screen and (max-width: 975px) {
   .container {
     width: 80%;
